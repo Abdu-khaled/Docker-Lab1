@@ -123,3 +123,12 @@ a) Dockerfile Creation
 ![](./Pic/Sat1.png)
 
 
+*** 
+
+b) Multi-Container Setup
+    • Create a Docker Compose file to set up a simple web application stack:
+        ◦ One container running an Nginx web server.
+        ◦ One container running a PostgreSQL database.
+        ◦ Ensure that the web server can communicate with the database container, and the database is persistent using a Docker volume.
+
+        
