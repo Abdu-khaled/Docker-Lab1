@@ -122,7 +122,7 @@ a) Dockerfile Creation
         ◦ The index.html file should display a custom message, such as "Welcome to DevOps World!"
     • Build the Docker image and verify its functionality
 
-![](./Pic/Sat1.png)
+![](./Pic/pic1.png)
 
 ---
 
@@ -132,7 +132,7 @@ b) Multi-Container Setup
         ◦ One container running a PostgreSQL database.
         ◦ Ensure that the web server can communicate with the database container, and the database is persistent using a Docker volume.
 
-![](./Pic/Sat2.png)
+![](./Pic/pic2.png)
 
 ---
 
