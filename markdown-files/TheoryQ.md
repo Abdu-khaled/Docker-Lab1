@@ -134,3 +134,45 @@ b) Multi-Container Setup
 ![](./Pic/Sat2.png)
 
 ***
+
+c) Resource Limiting
+    • Run your web server container with memory and CPU usage limits (e.g., limit the container to use a maximum of 512MB memory and 1 CPU core).
+
+```
+docker run -d \
+  --name nginx-web \
+  --memory="512m" \
+  --cpus="1" \
+  -p 8080:80 \
+  nginx:latest
+```
+
+• Provide the command you used and explain how Docker resource limits can help in a production environment.
+
+
+1. Prevent Resource Exhaustion:
+   By setting memory and CPU limits, you ensure that a single container cannot consume all available resources on the host, which could starve other containers or critical system processes.
+
+
+2. Improve Stability:
+   Resource limits prevent runaway processes or memory leaks in a container from crashing the entire host or affecting other containers.
+
+
+3. Fair Resource Allocation:
+   In a multi-tenant environment (e.g., running multiple containers on the same host), resource limits ensure fair allocation of CPU and memory among all containers.
+
+
+4. Cost Optimization:
+   By limiting resource usage, you can run more containers on the same host, optimizing infrastructure costs.
+
+5. Easier Scaling:
+   Resource limits make it easier to predict the performance and capacity of your containers, which is critical for scaling applications in production.
+
+
+6. Compliance with SLAs:
+   Enforcing resource limits helps ensure that your application meets performance and availability Service Level Agreements (SLAs).
+
+
+***
+
+(https://github.com/Abdu-khaled/Docker-Labs.git "Link of repo Lab)
