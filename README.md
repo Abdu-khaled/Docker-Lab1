@@ -106,18 +106,5 @@ This project is licensed under the MIT License. See the LICENSE file for details
 
 ---
 
-### **Changes Made**
 
-1. Updated the **Repository Structure** to match your file names and organization.
-2. Adjusted the paths in the **Practical Tasks** section to reflect the correct locations of files.
-3. Added the `markdown-files/` directory for theory answers and images.
 
----
-
-### **How to Use**
-
-1. Copy the updated Markdown text above.
-2. Paste it into your `README.md` file.
-3. Save and commit the changes to your repository.
-
-Let me know if you need further adjustments! 😊
