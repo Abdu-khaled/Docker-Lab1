@@ -6,6 +6,7 @@ This repository contains the files and instructions to set up a **Docker-based w
 
 ## **Repository Structure**
 
+```
 docker-webapp/
 ├── markdown-files/           # Markdown files for theory answers
 │   ├── Pic/                  # Images for theory answers
@@ -19,6 +20,7 @@ docker-webapp/
 │       └── html/             # HTML files for Nginx
 ├── docker-compose.yml        # Docker Compose file for multi-container setup
 └── README.md                 # This file
+```
 
 ---
 
@@ -105,6 +107,3 @@ If you find any issues or have suggestions for improvement, feel free to open an
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 ---
-
-
-
