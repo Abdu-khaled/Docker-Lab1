@@ -109,3 +109,17 @@ docker network rm my-network6
 ```
 
 ***
+
+## Practical Labs 
+
+a) Dockerfile Creation
+    • Write a Dockerfile that:
+        ◦ Uses Ubuntu as the base image.
+        ◦ Installs Nginx and serves a custom index.html file.
+        ◦ Exposes port 8080 and starts Nginx in the foreground.
+        ◦ The index.html file should display a custom message, such as "Welcome to DevOps World!"
+    • Build the Docker image and verify its functionality
+
+![](./Pic/Sat1.png)
+
+
