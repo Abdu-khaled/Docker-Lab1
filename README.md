@@ -7,18 +7,18 @@ This repository contains the files and instructions to set up a **Docker-based w
 ## **Repository Structure**
 
 docker-webapp/
-├── markdown-files/ # Markdown files for theory answers
-│ ├── Pic/ # Images for theory answers
-│ │ ├── pic1.png
-│ │ └── pic2.png
-│ └── TheoryQ.md # Answers to theory questions
-├── ubuntu-nginx/ # Files for Nginx setup
-│ ├── Dockerfile # Dockerfile for Nginx
-│ ├── index.html # Custom HTML file for Nginx
-│ └── webapp/ # Web application files
-│ └── html/ # HTML files for Nginx
-├── docker-compose.yml # Docker Compose file for multi-container setup
-└── README.md # This file
+├── markdown-files/           # Markdown files for theory answers
+│   ├── Pic/                  # Images for theory answers
+│   │   ├── pic1.png
+│   │   └── pic2.png
+│   └── TheoryQ.md            # Answers to theory questions
+├── ubuntu-nginx/             # Files for Nginx setup
+│   ├── Dockerfile            # Dockerfile for Nginx
+│   ├── index.html            # Custom HTML file for Nginx
+│   └── webapp/               # Web application files
+│       └── html/             # HTML files for Nginx
+├── docker-compose.yml        # Docker Compose file for multi-container setup
+└── README.md                 # This file
 
 ---
 
